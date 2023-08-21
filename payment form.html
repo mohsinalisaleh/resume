@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1>PAYMENT FORM</H1>
+        <H2>CONTACT INFORMATION</H2>
+        <P>NAME:<INPUT TYPE="TEXT" NAME="NAME" REQUIRED></P>
+        <FIELDSET>
+        <LEGEND>GENDER</LEGEND>
+        <P>
+        MALE <INPUT TYPE="RADIO" NAME="GENDER" ID="MALE"> FEMALE <INPUT TYPE="RADIO" NAME="GENDER" ID="FEMALE">
+        </P>
+        </FIELDSET>
+        <P>
+        ADDRESS: <TEXTAREA NAME="ADDRES" ID="ADDRES" COLS="100" ROWS="8"></TEXTAREA> 
+        </P>
+        <P>
+        EMAIL: <INPUT TYPE="EMAIL" NAME="EMAIL" ID="EMAIL">
+        </P>
+        <P>
+        PINCODE: <INPUT TYPE="NUMBER" NAME="PINCODE" ID="PINCODE">
+        </P>
+        <H2>PAYMENT METHOD</H2>
+        <P>CARD TYPE:
+        <SELECT NAME="CARD_TYPE" ID="CARD_TYPE">
+        <OPTION VALUE="">--SELECT A CARD--</OPTION>
+        <OPTION VALUE="VISA">VISA</OPTION>
+        <OPTION VALUE="MASTERCARD">MASTERCARD</OPTION>
+        <OPTION VALUE="RUPAY">RUPAY</OPTION> 
+        </SELECT>
+        <P>
+        CARD NUMBER: <INPUT TYPE="NUMBER" NAME="CARD_NUMBER" ID="CARD_NUMBER">
+        </P>
+        <P>
+        EXPIRATION DATE: <INPUT TYPE="DATE" NAME="EXP_DATE" ID="DATE">
+        </P>
+        <P>
+        CVV: <INPUT TYPE="PASSWORD" NAME="CVV" ID="CVV">
+        </P>
+        <P>
+        <INPUT TYPE="SUBMIT" VALUE="PAY NOW">
+        </P>
+        </form>
+        
+</body>
+</html>
